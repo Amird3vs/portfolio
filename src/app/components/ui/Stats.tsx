@@ -1,7 +1,7 @@
 "use client";
 import CountUp from "react-countup";
 import prjtDetails from "@/prjtdata/ProjectsInfo.json";
-import skills from "@/prjtdata/skills.json";
+import skills from "@/prjtdata/SkillsDesc.json";
 
 const numProjects = prjtDetails.length;
 const numSkills = skills.length;

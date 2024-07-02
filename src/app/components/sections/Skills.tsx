@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import skills from "@/prjtdata/skills.json";
+import skills from "@/prjtdata/SkillsDesc.json";
 
 const AboutSection = () => (
   <section
