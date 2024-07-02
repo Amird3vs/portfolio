@@ -1,0 +1,20 @@
+[
+    {
+        "id": "magna-student-expert",
+        "certificatePicture": "magna-cert.webp",
+        "certificateTitle": "Magna Cum Laude",
+        "certificateTime": "June 2024",
+        "certificateName": "Latin Honor",
+        "certificateSite": "https://api.badgr.io/public/assertions/bcxg-6NcTiiMkYRtHsuHdg?identity__email=amirkhanbili695%40gmail.com",
+        "certificateDescription": "Earned the Magna Cum Laude distinction for outstanding academic achievement and commitment to excellence in Bachelor of Science in Information Technology at Quezon City University."
+    },
+    {
+        "id": "postman-student-expert",
+        "certificatePicture": "postman-cert-akbili.webp",
+        "certificateTitle": "Postman API Fundamentals",
+        "certificateTime": "June 2024",
+        "certificateName": "Student Expert",
+        "certificateSite": "https://api.badgr.io/public/assertions/bcxg-6NcTiiMkYRtHsuHdg?identity__email=amirkhanbili695%40gmail.com",
+        "certificateDescription": "Completed the Postman API Fundamentals course, demonstrating basic proficiency in using Postman for API testing."
+    }
+]

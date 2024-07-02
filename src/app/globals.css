@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+  --bg-color: rgb(255, 255, 255);
+}
+
+.dark {
+  --bg-color: #181818;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Navbar transition classes */
+.navbar {
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    max-height: none;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+
+/* Experience section classes */
+@media screen and (min-width: 640px) {
+  .job-card:nth-child(2n) {
+    transform: translateX(100%);
+    padding-right: 0;
+  }
+
+  .job-card:nth-child(2n + 1) {
+    padding-left: 0;
+    padding-right: 1.5rem;
+  }
+
+  .job-card:nth-child(2n + 1) .job-picture {
+    left: calc(100% + 2rem);
+  }
+
+  .job-card:nth-child(2n) .job-picture {
+    left: calc(-120px - 2rem);
+  }
+
+  .job-card:nth-child(2n + 1) .circle {
+    left: calc(100% - 10px);
+  }
+}
+
+/* Certs section classes */
+.certificate-picture {
+  transition: transform 0.3s;
+}
+
+.certificate-picture:nth-child(odd) {
+  transform: rotate(5deg);
+}
+
+.certificate-picture:nth-child(even) {
+  transform: rotate(-5deg);
+}
+
+.group:hover .certificate-picture {
+  transform: scale(1.5) !important;
+}
+
+@media screen and (min-width: 640px) {
+  .certificate-card:nth-child(2n) {
+    transform: translateX(100%);
+    padding-right: 0;
+  }
+
+  .certificate-card:nth-child(2n + 1) {
+    padding-left: 0;
+    padding-right: 1.5rem;
+  }
+
+  .certificate-card:nth-child(2n + 1) .certificate-picture {
+    left: calc(100% + 2rem);
+  }
+
+  .certificate-card:nth-child(2n) .certificate-picture {
+    left: calc(-320px - 2rem);
+  }
+
+  .certificate-card:nth-child(2n + 1) .circle {
+    left: calc(100% - 10px);
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .certificate-picture {
+    pointer-events: none;
+  }
+}
+
+/* Contact section classes */
+.contact-links {
+  grid-template-columns: repeat(1, auto);
+}
+
+@media screen and (min-width: 640px) {
+  .contact-links {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-links {
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+  }
+}
+
+.carousel-viewport {
+  scrollbar-width: none;
+}
+
+.carousel-viewport::-webkit-scrollbar {
+  display: none;
+}

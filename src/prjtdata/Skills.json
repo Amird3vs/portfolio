@@ -1,0 +1,158 @@
+[
+    {
+        "site": "https://vuejs.org/",
+        "src": "/imgs/icons/vuejs.webp",
+        "alt": "Vue.js",
+        "label": "Vue.js"
+    },
+    {
+        "site": "https://react.dev/",
+        "src": "/imgs/icons/react.webp",
+        "alt": "React",
+        "label": "React"
+    },
+    {
+        "site": "https://nodejs.org/en",
+        "src": "/imgs/icons/nodejs.webp",
+        "alt": "Node.js",
+        "label": "Node.js"
+    },
+    {
+        "site": "https://getbootstrap.com/",
+        "src": "/imgs/icons/bootstrap.webp",
+        "alt": "Bootstrap",
+        "label": "Bootstrap"
+    },
+    {
+        "site": "https://getbootstrap.com/",
+        "src": "/imgs/icons/aceternity-ui.webp",
+        "alt": "Aceternity UI",
+        "label": "Aceternity UI"
+    },
+    {
+        "site": "https://expressjs.com",
+        "src": "/imgs/icons/expressjs.webp",
+        "alt": "Express.js",
+        "label": "Express.js"
+    },
+    {
+        "site": "https://www.postman.com/",
+        "src": "/imgs/icons/postman.webp",
+        "alt": "Postman",
+        "label": "Postman"
+    },
+    {
+        "site": "https://www.tensorflow.org/",
+        "src": "/imgs/icons/tensorflow.webp",
+        "alt": "TensorFlow",
+        "label": "TensorFlow"
+    },
+    {
+        "site": "https://en.wikipedia.org/wiki/HTML",
+        "src": "/imgs/icons/html.webp",
+        "alt": "HTML",
+        "label": "HTML"
+    },
+    {
+        "site": "https://en.wikipedia.org/wiki/CSS",
+        "src": "/imgs/icons/css.webp",
+        "alt": "CSS",
+        "label": "CSS"
+    },
+    {
+        "site": "https://www.javascript.com/",
+        "src": "/imgs/icons/javascript.webp",
+        "alt": "JavaScript",
+        "label": "JavaScript"
+    },
+    {
+        "site": "https://docs.oracle.com/en/java/",
+        "src": "/imgs/icons/java.webp",
+        "alt": "Java",
+        "label": "Java"
+    },
+    {
+        "site": "https://horstmann.com/bigj/help/jcreator/index.html",
+        "src": "/imgs/icons/Jcreator.webp",
+        "alt": "JCreator",
+        "label": "JCreator"
+    },
+    {
+        "site": "https://code.visualstudio.com/",
+        "src": "/imgs/icons/vscode.webp",
+        "alt": "VS Code",
+        "label": "VS Code"
+    },
+    {
+        "site": "https://visualstudio.microsoft.com/vs/older-downloads/",
+        "src": "/imgs/icons/vs.webp",
+        "alt": "VS 2019",
+        "label": "VS 2019"
+    },
+    {
+        "site": "https://github.com/",
+        "src": "/imgs/icons/github.webp",
+        "alt": "GitHub",
+        "label": "GitHub"
+    },
+    {
+        "site": "https://www.git-scm.com/",
+        "src": "/imgs/icons/git.webp",
+        "alt": "Git",
+        "label": "Git"
+    },
+    {
+        "site": "https://www.npmjs.com/",
+        "src": "/imgs/icons/npm.webp",
+        "alt": "NPM",
+        "label": "NPM"
+    },
+    {
+        "site": "https://www.figma.com/",
+        "src": "/imgs/icons/figma.webp",
+        "alt": "Figma",
+        "label": "Figma"
+    },
+    {
+        "site": "https://www.mysql.com/",
+        "src": "/imgs/icons/mysql.webp",
+        "alt": "MySQL",
+        "label": "MySQL"
+    },
+    {
+        "site": "https://en.wikipedia.org/wiki/Microsoft_SQL_Server",
+        "src": "/imgs/icons/mssql.webp",
+        "alt": "MS SQL",
+        "label": "MS SQL"
+    },
+    {
+        "site": "https://firebase.google.com/",
+        "src": "/imgs/icons/firebase.webp",
+        "alt": "Firebase",
+        "label": "Firebase"
+    },
+    {
+        "site": "https://www.json.org/json-en.html",
+        "src": "/imgs/icons/json.webp",
+        "alt": "JSON",
+        "label": "JSON"
+    },
+    {
+        "site": "https://socket.io/",
+        "src": "/imgs/icons/socketio.webp",
+        "alt": "Socket.IO",
+        "label": "Socket.IO"
+    },
+    {
+        "site": "https://firefox-source-docs.mozilla.org/devtools-user/",
+        "src": "/imgs/icons/Firefox.webp",
+        "alt": "Firefox DevTools",
+        "label": "Firefox DevTools"
+    },
+    {
+        "site": "https://render.com/",
+        "src": "/imgs/icons/render.webp",
+        "alt": "Render",
+        "label": "Render"
+    }
+]

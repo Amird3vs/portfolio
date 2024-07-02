@@ -1,0 +1,38 @@
+[
+    {
+        "id": "bsit",
+        "img": "qcu-logo.webp",
+        "status": "Degree:",
+        "program": "Bachelor of Science in Information Technolgy",
+        "period": "Aug 2020 - Jun 2024",
+        "schoolName": "Quezon City University",
+        "schoolSite": "https://qcu.edu.ph/"
+    },
+    {
+        "id": "abm",
+        "img": "ndb-logo.webp",
+        "status": "Strand:",
+        "program": "Accountancy, Business, and Management",
+        "period": "Jun 2017 - Mar 2019",
+        "schoolName": "Notre Dame of Bongao",
+        "schoolSite": "https://www.facebook.com/ndbongao/"
+    },
+    {
+        "id": "jhs",
+        "img": "ndb-logo.webp",
+        "status": "Attainment:",
+        "program": "Junior High School Diploma",
+        "period": "Jun 2013 - Mar 2017",
+        "schoolName": "Notre Dame of Bongao",
+        "schoolSite": "https://www.facebook.com/ndbongao/"
+    },
+    {
+        "id": "primaryschl",
+        "img": "ndb-logo.webp",
+        "status": "Attainment:",
+        "program": "Elementary Diploma",
+        "period": "Jun 2007 - Mar 2013",
+        "schoolName": "Notre Dame of Bongao",
+        "schoolSite": "https://www.facebook.com/ndbongao/"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "id": "philippine-statistics-authority",
+        "jobPicture": "psa-logo.webp",
+        "jobColor": "#006fff",
+        "jobTitle": "IT Support Intern",
+        "jobPeriod": "Oct 2023 - May 2024",
+        "jobCompany": "Philippine Statistics Authority",
+        "jobCompanySite": "https://www.psa.gov.ph/",
+        "jobDescription": "Involves providing technical assistance for computer systems, diagnosing and resolving hardware and software issues, troubleshooting network problems, ensuring system security, and documenting procedures.",
+        "jobActivities": [
+            "Troubleshoot worstations and computers.",
+            "Identify and resolve hardware and software issues.",
+            "Address network problems to ensure uninterrupted connectivity.",
+            "Assist in managing VPN accounts using Fortinet, including tasks such as account creation, updates, and deletions."
+        ],
+        "jobTechnologies": [
+            {
+                "name": "Kaspersky",
+                "icon": "kaspersky.webp"
+            },
+            {
+                "name": "Fortinet",
+                "icon": "fortinet.webp"
+            }
+        ]
+    },
+    {
+        "id": "quezon-city-university",
+        "jobPicture": "salinsenyas-logo.webp",
+        "jobColor": "#006fff",
+        "jobTitle": "Project Manager / Lead programmer",
+        "jobPeriod": "Aug 2023 - May 2024",
+        "jobCompany": "SalinSenyas Development Group",
+        "jobCompanySite": "https://www.psa.gov.ph/",
+        "jobDescription": "I led a capstone team of 24 members through the entire capstone project lifecycle, from initial ideation to development. Over nearly a year, I was responsible for full-stack development, handling both front-end and back-end tasks.",
+        "jobActivities": [
+            "Integrated third-party APIs and services as needed.",
+            "Full-stack development, encompassing both front-end and back-end functionalities.",
+            "Designed and implemented scalable and efficient solutions.",
+            "Documented project processes, code, and architecture for future reference."
+        ],
+        "jobTechnologies": [
+            {
+                "name": "Vue.js",
+                "icon": "vuejs.webp"
+            },
+            {
+                "name": "Firebase",
+                "icon": "firebase.webp"
+            },
+            {
+                "name": "Express.js",
+                "icon": "expressjs.webp"
+            },
+            {
+                "name": "Socket.IO",
+                "icon": "socketio.webp"
+            },
+            {
+                "name": "TensorFlow",
+                "icon": "tensorflow.webp"
+            },
+            {
+                "name": "Postman",
+                "icon": "postman.webp"
+            }
+        ]
+    }
+]

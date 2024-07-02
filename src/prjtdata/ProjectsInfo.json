@@ -1,0 +1,181 @@
+[
+    {
+        "id": "SalinSenyas",
+        "appImgs": [
+            "/projects/SalinSenyas/1.webp"
+        ],
+        "carouselImages": [
+            "1.webp",
+            "2.webp",
+            "3.webp",
+            "4.webp"
+        ],
+        "appType": "Web application",
+        "appTitle": "SalinSenyas: ASL recognition web app",
+        "appSite": "https://salin-senyas.github.io/",
+        "appRepo": "https://github.com/Amird3vs/capstone.git",
+        "appDesc": "A project developed as a final requirement for the Capstone Project and Research (CAP102) course in the fourth year of the BS Information Technology (BSIT) program at Quezon City University (QCU). It translates the American Sign Language (ASL) alphabet into text and voice, predicts Tagalog phrases and sentences, and supports video call recognition.",
+        "appTechnologies": [
+            {
+                "id": 1,
+                "name": "Vue.js",
+                "designation": "Frontend framework",
+                "image": "/imgs/icons/vuejs.webp"
+            },
+            {
+                "id": 2,
+                "name": "Firebase",
+                "designation": "Backend service",
+                "image": "/imgs/icons/firebase.webp"
+            },
+            {
+                "id": 3,
+                "name": "Express.js",
+                "designation": "Backend framework",
+                "image": "/imgs/icons/expressjs.webp"
+            },
+            {
+                "id": 4,
+                "name": "Socket.IO",
+                "designation": "Backend service",
+                "image": "/imgs/icons/socketio.webp"
+            },
+            {
+                "id": 5,
+                "name": "Tensorflow",
+                "designation": "Machine learning framework",
+                "image": "/imgs/icons/tensorflow.webp"
+            }
+        ]
+    },
+    {
+        "id": "text-summarizer",
+        "appImgs": [
+            "/projects/text-summarizer/1.webp"
+        ],
+        "carouselImages": [
+            "1.webp",
+            "2.png",
+            "3.jpg"
+        ],
+        "appType": "Web application",
+        "appTitle": "AI Text Summarizer with Hugging Face",
+        "appSite": "https://salin-senyas.github.io/",
+        "appRepo": "https://github.com/Amird3vs/capstone.git",
+        "appDesc": "This project was developed as part of the requirements for Project-Based Learning at Postman Academy, where the goal was to create an AI Text Summarizer app. Users simply need to paste the text, and the app will summarize it automatically.",
+        "appTechnologies": [
+            {
+                "id": 1,
+                "name": "HTML",
+                "designation": "Markup language",
+                "image": "/imgs/icons/html.webp"
+            },
+            {
+                "id": 2,
+                "name": "CSS",
+                "designation": "Styling language",
+                "image": "/imgs/icons/css.webp"
+            },
+            {
+                "id": 3,
+                "name": "JavaScript",
+                "designation": "Programming language",
+                "image": "/imgs/icons/javascript.webp"
+            },
+            {
+                "id": 4,
+                "name": "Express.js",
+                "designation": "Backend service",
+                "image": "/imgs/icons/expressjs.webp"
+            },
+            {
+                "id": 5,
+                "name": "Postman",
+                "designation": "API testing tool",
+                "image": "/imgs/icons/postman.webp"
+            }
+        ]
+    },
+    {
+        "id": "inventory-management-system",
+        "appImgs": [
+            "/projects/inventory-management-system/1.webp"
+        ],
+        "carouselImages": [
+            "1.webp",
+            "2.webp",
+            "3.webp"
+        ],
+        "appType": "Web application",
+        "appTitle": "Inventory Management System",
+        "appRepo": "https://github.com/Amird3vs/IMS.git",
+        "appDesc": "This project was developed upon completion of the System Integration and Architecture 1 (SIA101) course. It is an inventory management system that includes Point of Sale (POS) functionality. Key features include monitoring stock levels, tracking fast-selling products, generating reports, and facilitating POS transactions.",
+        "appTechnologies": [
+            {
+                "id": 1,
+                "name": "Visual Basic",
+                "designation": "Frontend & automation",
+                "image": "/imgs/icons/vb.webp"
+            },
+            {
+                "id": 2,
+                "name": "C Sharp",
+                "designation": ".NET backend",
+                "image": "/imgs/icons/csharp.webp"
+            },
+            {
+                "id": 3,
+                "name": "Oracle",
+                "designation": "Relational database",
+                "image": "/imgs/icons/oracle.webp"
+            }
+        ]
+    },
+    {
+        "id": "learning-management-system",
+        "appImgs": [
+            "/imgs/inventory.png"
+        ],
+        "carouselImages": [
+            "1.webp",
+            "2.png",
+            "3.jpg"
+        ],
+        "appType": "Web application",
+        "appTitle": "Learning Management System",
+        "appRepo": "https://github.com/Amird3vs/capstone.git",
+        "appDesc": "A project developed as a final requirement for the completion of CS221",
+        "appTechnologies": [
+            {
+                "id": 1,
+                "name": "HTML",
+                "designation": "Markup language",
+                "image": "/imgs/icons/html.webp"
+            },
+            {
+                "id": 2,
+                "name": "CSS",
+                "designation": "Styling language",
+                "image": "/imgs/icons/css.webp"
+            },
+            {
+                "id": 3,
+                "name": "JavaScript",
+                "designation": "Programming language",
+                "image": "/imgs/icons/javascript.webp"
+            },
+            {
+                "id": 4,
+                "name": "Express.js",
+                "designation": "Backend service",
+                "image": "/imgs/icons/expressjs.webp"
+            },
+            {
+                "id": 5,
+                "name": "Postman",
+                "designation": "API testing tool",
+                "image": "/imgs/icons/postman.webp"
+            }
+        ]
+    }
+]
