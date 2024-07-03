@@ -24,8 +24,7 @@ const ProjectsSection: React.FC = () => {
         Projects
       </h1>
       <p className="text-[#ADB7BE] mb-12">
-        Notable projects developed as part of my journey towards earning my
-        degree.
+        Below are some of the notable projects I have developed.
       </p>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-10">
         {prjtDetails.map((project, index) => (

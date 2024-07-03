@@ -55,13 +55,13 @@
         ],
         "carouselImages": [
             "1.webp",
-            "2.png",
-            "3.jpg"
+            "2.webp",
+            "3.webp"
         ],
         "appType": "Web application",
         "appTitle": "AI Text Summarizer with Hugging Face",
-        "appSite": "https://salin-senyas.github.io/",
-        "appRepo": "https://github.com/Amird3vs/capstone.git",
+        "appSite": "https://brieflyai.onrender.com/",
+        "appRepo": "https://github.com/Amird3vs/AI-text-summarizer.git",
         "appDesc": "This project was developed as part of the requirements for Project-Based Learning at Postman Academy, where the goal was to create an AI Text Summarizer app. Users simply need to paste the text, and the app will summarize it automatically.",
         "appTechnologies": [
             {
@@ -128,53 +128,6 @@
                 "name": "Oracle",
                 "designation": "Relational database",
                 "image": "/imgs/icons/oracle.webp"
-            }
-        ]
-    },
-    {
-        "id": "learning-management-system",
-        "appImgs": [
-            "/imgs/inventory.png"
-        ],
-        "carouselImages": [
-            "1.webp",
-            "2.png",
-            "3.jpg"
-        ],
-        "appType": "Web application",
-        "appTitle": "Learning Management System",
-        "appRepo": "https://github.com/Amird3vs/capstone.git",
-        "appDesc": "A project developed as a final requirement for the completion of CS221",
-        "appTechnologies": [
-            {
-                "id": 1,
-                "name": "HTML",
-                "designation": "Markup language",
-                "image": "/imgs/icons/html.webp"
-            },
-            {
-                "id": 2,
-                "name": "CSS",
-                "designation": "Styling language",
-                "image": "/imgs/icons/css.webp"
-            },
-            {
-                "id": 3,
-                "name": "JavaScript",
-                "designation": "Programming language",
-                "image": "/imgs/icons/javascript.webp"
-            },
-            {
-                "id": 4,
-                "name": "Express.js",
-                "designation": "Backend service",
-                "image": "/imgs/icons/expressjs.webp"
-            },
-            {
-                "id": 5,
-                "name": "Postman",
-                "designation": "API testing tool",
-                "image": "/imgs/icons/postman.webp"
             }
         ]
     }
