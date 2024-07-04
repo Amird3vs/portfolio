@@ -8,7 +8,7 @@ const numSkills = skills.length;
 
 const stats = [
   {
-    num: 3,
+    num: 2,
     text: "Years of <br /> experience",
   },
   {
@@ -17,7 +17,7 @@ const stats = [
   },
   {
     num: numSkills,
-    text: "Technologies <br /> employed",
+    text: "Technologies <br /> used",
   },
   {
     num: 1000,
