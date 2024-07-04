@@ -30,6 +30,7 @@ This project was built using these technologies:
 - 🚀 A great web performance
 - 📱 Fully Responsive
 - ☀️ Light and Dark Theme
+- 📈 Automated statistics tracking
 
 ## Getting Started
 
