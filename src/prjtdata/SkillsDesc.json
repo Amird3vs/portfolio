@@ -91,7 +91,7 @@
     },
     {
         "site": "https://github.com/",
-        "src": "/imgs/icons/github.webp",
+        "src": "/imgs/icons/github.svg",
         "alt": "GitHub",
         "label": "GitHub"
     },
