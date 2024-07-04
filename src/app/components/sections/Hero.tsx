@@ -10,7 +10,7 @@ const HeroSection = () => {
       className="xl:h-[calc(100dvh-4rem)] p-4 xl:px-44 relative z-21 flex items-center"
     >
       <div className="w-full relative z-20">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pb-10 pt-6 xl:pt-0">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pb-6 pt-6 xl:pt-0">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-sm font-bold text-emerald-600 dark:text-[#CCCCCC] bg-green-100 dark:bg-[#fff1] py-[9px] px-4 rounded-full">
               Aspiring Web Dev | Backend
@@ -32,6 +32,7 @@ const HeroSection = () => {
                 <li className="p-2 rounded-xl hover:scale-110 text-emerald-600 dark:text-[#CCCCCC] hover:bg-[#0001] dark:hover:bg-[#fff1] transition-transform duration-300">
                   <Link
                     href="https://www.linkedin.com/in/bili-amir-khan-a-95683a2b7/"
+                    rel="noreferrer"
                     target="_blank"
                   >
                     <svg
@@ -52,7 +53,11 @@ const HeroSection = () => {
                   </Link>
                 </li>
                 <li className="p-2 rounded-xl hover:scale-110 text-emerald-600 dark:text-[#CCCCCC] hover:bg-[#0001] dark:hover:bg-[#fff1] transition-transform duration-300">
-                  <Link href="https://github.com/Amird3vs" target="_blank">
+                  <Link
+                    href="https://github.com/Amird3vs"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="25"
@@ -72,6 +77,7 @@ const HeroSection = () => {
                 <li className="p-2 rounded-xl hover:scale-110 text-emerald-600 dark:text-[#CCCCCC] hover:bg-[#0001] dark:hover:bg-[#fff1] transition-transform duration-300">
                   <Link
                     href="https://www.facebook.com/profile.php?id=100035186587021"
+                    rel="noreferrer"
                     target="_blank"
                   >
                     <svg
@@ -88,28 +94,34 @@ const HeroSection = () => {
                   </Link>
                 </li>
                 <li className="p-2 rounded-xl hover:scale-110 text-emerald-600 dark:text-[#CCCCCC] hover:bg-[#0001] dark:hover:bg-[#fff1] transition-transform duration-300">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                  <Link
+                    href="https://www.instagram.com/kh4nnnnn?igsh=MTk1cmV1M2VlZDRseQ=="
+                    rel="noreferrer"
+                    target="_blank"
                   >
-                    <rect
-                      x="2"
-                      y="2"
-                      width="20"
-                      height="20"
-                      rx="5"
-                      ry="5"
-                    ></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <rect
+                        x="2"
+                        y="2"
+                        width="20"
+                        height="20"
+                        rx="5"
+                        ry="5"
+                      ></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                  </Link>
                 </li>
               </ul>
               <div className="flex flex-row">

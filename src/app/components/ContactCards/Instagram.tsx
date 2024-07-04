@@ -61,7 +61,7 @@ const InstagramCard = () => {
         </span>
         <a
           className="font-bold text-base dark:text-[#F6F6F6] hover:cursor-pointer hover:underline"
-          href="https://www.facebook.com/profile.php?id=100035186587021&mibextid=ZbWKwL"
+          href="https://www.instagram.com/kh4nnnnn?igsh=MTk1cmV1M2VlZDRseQ=="
           target="_blank"
           rel="noreferrer"
         >
