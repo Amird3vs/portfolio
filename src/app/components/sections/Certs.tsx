@@ -17,7 +17,7 @@ const CertsSection = () => {
         {CertDetails.map((cert) => (
           <article
             key={cert.id}
-            className="certificate-card group relative flex flex-col pl-6 gap-4 sm:w-[50%] sm:even:translate-x-full pr-0 sm:odd:pl-0 odd:pr-6"
+            className="certificate-card relative flex flex-col pl-6 gap-4 sm:w-[50%] sm:even:translate-x-full pr-0 sm:odd:pl-0 odd:pr-6"
           >
             <span className="circle bg-customGreen absolute top-[-5px] left-[-10px] h-[24px] w-[24px] rounded-full z-[1]"></span>
             <div className="certificate-picture top-0 p-4 flex flex-col justify-center items-center gap-4 sm:absolute h-[220px] w-[320px] object-contain z-10 mb-6">

@@ -74,7 +74,7 @@ html {
   transform: rotate(-5deg);
 }
 
-.group:hover .certificate-picture {
+.certificate-picture:hover {
   transform: scale(1.5) !important;
 }
 

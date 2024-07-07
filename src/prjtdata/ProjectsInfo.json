@@ -59,7 +59,7 @@
             "3.webp"
         ],
         "appType": "Web application",
-        "appTitle": "AI Text Summarizer with Hugging Face",
+        "appTitle": "BrieflyAI: AI Text Summarizer",
         "appSite": "https://brieflyai.onrender.com/",
         "appRepo": "https://github.com/Amird3vs/AI-text-summarizer.git",
         "appDesc": "This project was developed as part of the requirements for Project-Based Learning at Postman Academy, where the goal was to create an AI Text Summarizer app. Users simply need to paste the text, and the app will summarize it automatically.",

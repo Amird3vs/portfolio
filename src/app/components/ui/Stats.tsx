@@ -2,6 +2,7 @@
 import CountUp from "react-countup";
 import prjtDetails from "@/prjtdata/ProjectsInfo.json";
 import skills from "@/prjtdata/SkillsDesc.json";
+import Link from "next/link";
 
 const numProjects = prjtDetails.length;
 const numSkills = skills.length;
@@ -12,10 +13,12 @@ const stats = [
     text: "Years of <br /> experience",
   },
   {
+    sectionID: "#projects",
     num: numProjects,
     htmlText: "Projects <br /> completed",
   },
   {
+    sectionID: "#skills",
     num: numSkills,
     text: "Technologies <br /> used",
   },
@@ -40,18 +43,35 @@ const Stats = () => {
                     : ""
                 }`}
               >
-                <li className="flex flex-rows items-center gap-2">
-                  <span className="flex items-center justify-center font-bold bg-green-100 dark:bg-[#fff1] text-emerald-600 dark:text-darkTextColorPrimary py-1 px-3 rounded-xl">
-                    <CountUp end={item.num} duration={5} delay={1} />
-                    {index === 0 || index === stats.length - 1 ? "+" : ""}
-                  </span>
-                  <span
-                    className="flex text-[0.71rem] sm:text-[0.81rem] leading-[1] text-secondaryDarkTextColor dark:text-customGray"
-                    dangerouslySetInnerHTML={{
-                      __html: item.htmlText || item.text || "",
-                    }}
-                  />
-                </li>
+                {item.sectionID ? (
+                  <Link href={item.sectionID}>
+                    <li className="flex flex-rows items-center gap-2">
+                      <span className="flex items-center justify-center font-bold bg-green-100 dark:bg-[#fff1] text-emerald-600 dark:text-darkTextColorPrimary py-1 px-3 rounded-xl">
+                        <CountUp end={item.num} duration={5} delay={1} />
+                        {index === 0 || index === stats.length - 1 ? "+" : ""}
+                      </span>
+                      <span
+                        className="flex text-[0.71rem] sm:text-[0.81rem] leading-[1] text-secondaryDarkTextColor dark:text-customGray"
+                        dangerouslySetInnerHTML={{
+                          __html: item.htmlText || item.text || "",
+                        }}
+                      />
+                    </li>
+                  </Link>
+                ) : (
+                  <li className="flex flex-rows items-center gap-2">
+                    <span className="flex items-center justify-center font-bold bg-green-100 dark:bg-[#fff1] text-emerald-600 dark:text-darkTextColorPrimary py-1 px-3 rounded-xl">
+                      <CountUp end={item.num} duration={5} delay={1} />
+                      {index === 0 || index === stats.length - 1 ? "+" : ""}
+                    </span>
+                    <span
+                      className="flex text-[0.71rem] sm:text-[0.81rem] leading-[1] text-secondaryDarkTextColor dark:text-customGray"
+                      dangerouslySetInnerHTML={{
+                        __html: item.htmlText || item.text || "",
+                      }}
+                    />
+                  </li>
+                )}
               </ul>
             );
           })}
