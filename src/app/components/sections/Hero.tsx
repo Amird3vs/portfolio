@@ -127,7 +127,7 @@ const HeroSection = () => {
               <div className="flex flex-row">
                 <button className="flex justify-center items-center gap-1 px-4 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br bg-green-100 hover:bg-green-200 dark:bg-[#fff1] text-emerald-600 hover:text-emerald-700 dark:text-[#CCCCCC] dark:hover:bg-[#fff2] font-bold">
                   <Link
-                    href="https://drive.google.com/file/d/1TcOJzZpD8WoCp0-8WliQQy-e-gF4ZxC3/view"
+                    href="https://drive.google.com/file/d/1CuGJFIz-ryxHjDbdfgT6b3PPW1vqi5_G/view?usp=sharing"
                     target="_blank"
                     className="flex justify-center items-center gap-1"
                   >
