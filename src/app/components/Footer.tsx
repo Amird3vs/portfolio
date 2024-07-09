@@ -69,7 +69,7 @@ const Footer = () => {
           <li>
             <a
               className="text-[#191919] dark:text-darkTextColorPrimary font-medium text-sm hover:text-light-texto-primary dark:hover:text-dark-texto-primary transition-colors hover:underline"
-              href="https://drive.google.com/file/d/1CuGJFIz-ryxHjDbdfgT6b3PPW1vqi5_G/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jecWGG_QAkxhu_sAmpVq0hM8DWKxvkhk/view"
               target="_blank"
             >
               Resume
