@@ -22,7 +22,7 @@ const CertsSection = () => {
             <span className="circle bg-customGreen absolute top-[-5px] left-[-10px] h-[24px] w-[24px] rounded-full z-[1]"></span>
             <div className="certificate-picture top-0 p-4 flex flex-col justify-center items-center gap-4 sm:absolute h-[220px] w-[320px] object-contain z-10 mb-6">
               <img
-                className="w-full h-auto"
+                className="w-full h-auto z-50"
                 src={`/certificates/${cert.certificatePicture}`}
                 alt={`Certificate of ${cert.certificateTitle} from ${cert.certificateName}`}
                 loading="lazy"

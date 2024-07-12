@@ -16,5 +16,14 @@
         "certificateName": "Student Expert",
         "certificateSite": "https://api.badgr.io/public/assertions/bcxg-6NcTiiMkYRtHsuHdg?identity__email=amirkhanbili695%40gmail.com",
         "certificateDescription": "Completed the Postman API Fundamentals course, demonstrating basic proficiency in using Postman for API testing."
+    },
+    {
+        "id": "english-for-it",
+        "certificatePicture": "it-cert-1.webp",
+        "certificateTitle": "English for IT 1",
+        "certificateTime": "July 2024",
+        "certificateName": "Cisco & OpenEDG",
+        "certificateSite": "https://www.credly.com/badges/022f1999-5d02-47ac-a990-cb9758f5a472/public_url",
+        "certificateDescription": "Certified in English for IT 1 by Cisco and OpenEDG. Proficient in IT-specific grammar, information security, job roles, customer support phrases, and vocabulary related to user experience, fraudulent calls, and network/software engineering."
     }
 ]
