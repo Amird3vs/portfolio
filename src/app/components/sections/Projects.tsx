@@ -1,8 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AnimatedTooltip } from "../ui/animated-tooltip";
 import prjtDetails from "@/prjtdata/ProjectsInfo.json";
 import ProjectModal from "@/app/components/ui/project-modal";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ProjectsSection: React.FC = () => {
   const [visibleModalId, setVisibleModalId] = useState<string | null>(null);
@@ -15,18 +17,30 @@ const ProjectsSection: React.FC = () => {
     setVisibleModalId(null);
   };
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <section
       id="projects"
       className="w-[calc(100vw-3rem)] mx-auto sm:w-[93vw] md:w-[90vw] lg:w-[900px] py-16"
     >
-      <h1 className="text-3xl dark:text-[#F6F6F6] mb-4 font-bold border-b-4 border-customGreen w-fit py-2">
+      <h1
+        className="text-3xl dark:text-[#F6F6F6] mb-4 font-bold border-b-4 border-customGreen w-fit py-2"
+        data-aos="zoom-in"
+      >
         Projects
       </h1>
-      <p className="text-[#ADB7BE] mb-12">
+      <p className="text-[#ADB7BE] mb-12" data-aos="zoom-in">
         Below are some of the notable projects I have developed.
       </p>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-10">
+      <div
+        className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-10"
+        data-aos="zoom-in"
+      >
         {prjtDetails.map((project, index) => (
           <div
             key={index}

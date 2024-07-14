@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import experience from "@/prjtdata/exp.json";
 import AccordionButton from "@/app/components/ui/AccordionButton";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ExperienceSection: React.FC = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <section
       id="experience"
-      className="w-[calc(100vw-3rem)] mx-auto sm:w-[93vw] md:w-[90vw] lg:w-[900px] py-16"
+      className="w-[calc(100vw-3rem)] mx-auto sm:w-[93vw] md:w-[90vw] lg:w-[900px] py-4 lg:py-10"
+      data-aos="fade-up"
     >
       <h1 className="text-3xl dark:text-[#F6F6F6] mb-4 font-bold border-b-4 border-customGreen w-fit">
         Experience

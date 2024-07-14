@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import educDetails from "@/prjtdata/EducDetails.json";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const EducationSection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <section
       id="education"
-      className="w-[calc(100vw-3rem)] mx-auto sm:w-[93vw] md:w-[90vw] lg:w-[900px] py-16"
+      className="w-[calc(100vw-3rem)] mx-auto sm:w-[93vw] md:w-[90vw] lg:w-[900px] py-4 lg:py-10"
+      data-aos="fade-down"
     >
       <h1 className="text-3xl dark:text-[#F6F6F6] mb-4 font-bold border-b-4 border-customGreen w-fit">
         Education

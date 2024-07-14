@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CertDetails from "@/prjtdata/CertItems.json";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const CertsSection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <section
       id="certificates"
-      className="w-[calc(100vw-3rem)] mx-auto sm:w-[93vw] md:w-[90vw] lg:w-[900px] py-20"
+      className="w-[calc(100vw-3rem)] mx-auto sm:w-[93vw] md:w-[90vw] lg:w-[900px] py-16"
+      data-aos="fade-up"
     >
       <h1 className="text-3xl dark:text-[#F6F6F6] mb-4 font-bold border-b-4 border-customGreen w-fit">
         Certificates
@@ -17,10 +26,10 @@ const CertsSection = () => {
         {CertDetails.map((cert) => (
           <article
             key={cert.id}
-            className="certificate-card group relative flex flex-col pl-6 gap-4 sm:w-[50%] sm:even:translate-x-full pr-0 sm:odd:pl-0 odd:pr-6"
+            className="certificate-card group relative flex flex-col gap-4 sm:w-[50%] sm:even:translate-x-full pr-0 sm:odd:pl-0 odd:pr-6"
           >
             <span className="circle bg-customGreen absolute top-[-5px] left-[-10px] h-[24px] w-[24px] rounded-full z-[1]"></span>
-            <div className="certificate-picture top-0 p-4 flex flex-col justify-center items-center gap-4 sm:absolute h-[220px] w-[320px] object-contain z-10 mb-6">
+            <div className="certificate-picture top-0 p-6 flex flex-col justify-center items-center gap-4 sm:absolute h-[220px] w-[320px] object-contain z-10 mb-6">
               <img
                 className="w-full h-auto z-50"
                 src={`/certificates/${cert.certificatePicture}`}
@@ -28,7 +37,7 @@ const CertsSection = () => {
                 loading="lazy"
               />
             </div>
-            <div className="info flex flex-col justify-center xl:mb-6">
+            <div className="info flex flex-col justify-center pl-6 xl:mb-6">
               <div className="flex flex-col mb-4">
                 <h1 className="text-[#191919] dark:text-darkTextColorPrimary font-bold text-xl">
                   {cert.certificateTitle}
